@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/currency.js@2.0.4/dist/currency.min.js"></script>
+</head>
+<body>
+    <script>
+        console.log(currency(0.1).add(currency(0.2)).format()); // => "$0.30" instead of "0.30000000000000004"
+    </script>
+</body>
+</html>
